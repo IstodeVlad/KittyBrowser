@@ -25,34 +25,35 @@ class Browser extends Component {
   }
 
   render() {
+    
     return (
+            
       <div className="browser">
         <h1>
           Kitty Browser
         </h1>
 
-        {/* Input to type in the kitty ID here */}
-        <form>
+        {/* <form>
           <label>Kitty ID:</label><br></br>
           <input type = 'text' id='kittyID' name='id'></input>
           <input type = 'submit'></input>
         </form>
-        <br></br>
-
-
-        {/* Display Kitty info here */}
-        
+        <br></br>       
         Genes:
         <br></br><br></br>
         Generation:
         <br></br><br></br>
         Birth Time:
-        <br></br><br></br>
-        
-        
+        <br></br><br></br> */}
+
+        {/* Input to type in the kitty ID here */}
+
+        {/* Display Kitty info here */}
         
       </div>
+
     );
+    
   }
 }
 
