@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { object } from 'prop-types';
+import { DrizzleProvider } from 'drizzle-react';
 import Web3 from 'web3';
 import KittyCoreABI from '../contracts/KittyCoreABI.json';
 import { CONTRACT_NAME, CONTRACT_ADDRESS } from '../config';
@@ -26,6 +27,12 @@ class Browser extends Component {
 
   render() {
     
+    // const drizzleContext = {
+    //   drizzle,       // this is the drizzle instance (use this to call `cacheCall` and `cacheSend`)
+    //   drizzleState,  // this is the entire Drizzle state, it will always be up-to-date
+    //   initialized    // this boolean value will indicate when Drizzle is ready
+    // }
+
     return (
             
       <div className="browser">
